@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+
+  <title>Train Time</title>
+</head>
+
+<body>
+
+  <div class="jumbotron text-center" id="top">
+    <style type="text/css">
+      #top {
+        background-color: black;
+        color: beige;
+      }
+    </style>
+
+    <h1>TRAIN TIME</h1>
+    <p>Find out the time for the next train and how long it will take.</p>
+    <p></p>
+
+  </div>
+
+
+  <div class="panel panel-primary">
+    <div class="panel-heading">Current Train Schedule</div>
+    <div class="panel-body">
+      <table class="table table-condensed" id="employeeTable">
+        <thead>
+          <th>
+            Train Name
+          </th>
+          <th>
+            Destination
+          </th>
+          <th>
+            Frequency (MIN)
+          </th>
+          <th>
+            Next Arrival
+          </th>
+          <th>
+            Minutes Away
+          </th>
+        </thead>
+
+        <tr>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+
+      </table>
+    </div>
+  </div>
+
+
+  <div class="panel panel-primary">
+    <div class="panel-heading">Add Train</div>
+    <div class="panel-body">
+      <form>
+        <div class="form-group">
+          <label for="employeename">Train Name</label>
+          <input type="name" class="form-control" id="employeename" placeholder="Employee Name">
+        </div>
+        <div class="form-group">
+          <label for="role">Destination</label>
+          <input type="role" class="form-control" id="Role" placeholder="Role">
+        </div>
+        <div class="form-group">
+          <label for="startdate">First Train Time(HH:mm - Military TIme)</label>
+          <input type="startdate" class="form-control" id="startDate" placeholder="Start Date">
+        </div>
+        <div class="form-group">
+          <label for="monthlyrate">Frequency (MM)</label>
+          <input type="monthlyrate" class="form-control" id="monthlyrate" placeholder="Monthly Rate">
+        </div>
+        <input class="btn btn-primary" type="submit" value="Submit" id="addUser">
+
+      <ß/form>
+    </div>
+  </div>
+
+
+
+</body>
+
+</html>
