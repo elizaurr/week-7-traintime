@@ -1,0 +1,24 @@
+h1 {
+  font-family: 'Sancreek';
+  font-size: 75px;
+}
+
+table {
+  font-family: 'Averia Serif Libre';
+}
+
+h3 {
+  font-family: 'Averia Serif Libre';
+}
+
+label {
+  font-family: 'Averia Serif Libre';
+}
+
+button {
+  font-family: 'Averia Serif Libre';
+}
+
+.jumbotron {
+  background: red;
+}
